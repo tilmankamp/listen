@@ -1,0 +1,37 @@
+{
+  "name": "listen",
+  "version": "0.0.1",
+  "description": "A DeepSpeech based virtual assistant",
+  "main": "index.js",
+  "scripts": {
+    "install": "node scripts/install.js",
+    "test": "node scripts/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilmankamp/listen.git"
+  },
+  "keywords": [
+    "DeepSpeech",
+    "virtual",
+    "assistant",
+    "STT",
+    "TTS",
+    "AVR"
+  ],
+  "author": "Tilman Kamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tilmankamp/listen/issues"
+  },
+  "homepage": "https://github.com/tilmankamp/listen#readme",
+  "dependencies": {
+    "deepspeech": "^0.1.0",
+    "electron": "^1.7.9",
+    "node-jre": "^0.2.3",
+    "progress": "^2.0.0",
+    "request": "^2.83.0",
+    "request-json": "^0.6.2",
+    "tar-fs": "^1.16.0"
+  }
+}
