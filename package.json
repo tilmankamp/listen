@@ -27,9 +27,12 @@
   "homepage": "https://github.com/tilmankamp/listen#readme",
   "dependencies": {
     "deepspeech": "^0.1.0",
+    "deepspeech-gpu": "^0.1.0",
     "electron": "^1.7.9",
+    "extract-zip": "^1.6.6",
     "node-jre": "^0.2.3",
     "progress": "^2.0.0",
+    "pureimage": "^0.1.3",
     "request": "^2.83.0",
     "request-json": "^0.6.2",
     "tar-fs": "^1.16.0"
